@@ -3,7 +3,11 @@ url: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/ap
 name: Lovable
 x-type: company
 description: >-
-  Lovable is an AI app builder that generates full-stack web applications from natural-language prompts, with live preview, GitHub sync, and Supabase integration.
+  Lovable is an AI app builder that generates full-stack web applications from natural-
+  language prompts, with live preview, GitHub sync, and Supabase / Firebase integration.
+  Lovable's developer-facing surface is in early release: the "Build with URL" API generates
+  apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop,
+  Cursor) manage Lovable projects via Model Context Protocol.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI
@@ -11,13 +15,52 @@ tags:
   - App Builder
   - Web Development
   - Generative
+  - MCP
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: lovable:build-with-url
+    name: Lovable Build with URL API
+    description: >-
+      Generates a Lovable application from a shareable URL or prompt. Programmatic entry
+      point for creating apps and sharing links without revealing implementation details.
+      Early release; more endpoints planned.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.lovable.dev/integrations/lovable-api
+    baseURL: https://lovable.dev
+    tags:
+      - AI
+      - App Generation
+      - URL-Triggered
+    properties:
+      - type: Documentation
+        url: https://docs.lovable.dev/integrations/lovable-api
+      - type: BlogPost
+        url: https://lovable.dev/blog/introducing-lovable-api-build-with-url
+  - aid: lovable:mcp
+    name: Lovable MCP Server (Research Preview)
+    description: >-
+      Model Context Protocol server at https://mcp.lovable.dev. Allows AI clients
+      (Claude Desktop, Cursor, etc.) to create and manage Lovable projects through
+      natural-language MCP tool calls.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://docs.lovable.dev/integrations/lovable-api
+    baseURL: https://mcp.lovable.dev
+    tags:
+      - MCP
+      - AI Clients
+      - Research Preview
+    properties:
+      - type: Documentation
+        url: https://docs.lovable.dev/integrations/lovable-api
 common:
   - type: Website
     url: https://lovable.dev/
+  - type: Documentation
+    url: https://docs.lovable.dev/
+  - type: Pricing
+    url: https://lovable.dev/pricing
   - type: Plans
     url: plans/lovable-plans-pricing.yml
   - type: RateLimits
