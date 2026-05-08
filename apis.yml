@@ -1,0 +1,29 @@
+aid: lovable
+url: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/apis.yml
+name: Lovable
+x-type: company
+description: >-
+  Lovable is an AI app builder that generates full-stack web applications from natural-language prompts, with live preview, GitHub sync, and Supabase integration.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI
+  - No-Code
+  - App Builder
+  - Web Development
+  - Generative
+created: '2026-05-08'
+modified: '2026-05-08'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://lovable.dev/
+  - type: Plans
+    url: plans/lovable-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/lovable-rate-limits.yml
+  - type: FinOps
+    url: finops/lovable-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
