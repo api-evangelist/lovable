@@ -67,6 +67,11 @@ common:
     url: rate-limits/lovable-rate-limits.yml
   - type: FinOps
     url: finops/lovable-finops.yml
+  - type: Integrations
+    url: https://lovable.dev/partners
+integrations:
+  - name: 'Let''s partner on affiliates'
+  - name: Connections
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
