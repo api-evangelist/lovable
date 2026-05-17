@@ -1,7 +1,7 @@
 aid: lovable
 url: https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/apis.yml
 name: Lovable
-x-type: company
+kind: company
 description: >-
   Lovable is an AI app builder that generates full-stack web applications from natural-
   language prompts, with live preview, GitHub sync, and Supabase / Firebase integration.
