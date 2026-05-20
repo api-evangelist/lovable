@@ -55,6 +55,10 @@ apis:
       - type: Documentation
         url: https://docs.lovable.dev/integrations/lovable-api
 common:
+  - type: GitHubOrganization
+    url: https://github.com/lovablelabs
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lovable-dev
   - type: Website
     url: https://lovable.dev/
   - type: Documentation
