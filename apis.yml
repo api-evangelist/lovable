@@ -8,7 +8,7 @@ description: >-
   Lovable's developer-facing surface is in early release: the "Build with URL" API generates
   apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop,
   Cursor) manage Lovable projects via Model Context Protocol.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - No-Code
@@ -26,7 +26,7 @@ apis:
       Generates a Lovable application from a shareable URL or prompt. Programmatic entry
       point for creating apps and sharing links without revealing implementation details.
       Early release; more endpoints planned.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.lovable.dev/integrations/lovable-api
     baseURL: https://lovable.dev
     tags:
@@ -44,7 +44,7 @@ apis:
       Model Context Protocol server at https://mcp.lovable.dev. Allows AI clients
       (Claude Desktop, Cursor, etc.) to create and manage Lovable projects through
       natural-language MCP tool calls.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://docs.lovable.dev/integrations/lovable-api
     baseURL: https://mcp.lovable.dev
     tags:
