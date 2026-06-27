@@ -73,7 +73,7 @@ common:
     url: finops/lovable-finops.yml
   - type: Integrations
     url: https://lovable.dev/partners
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://docs.lovable.dev/llms.txt
 integrations:
   - name: 'Let''s partner on affiliates'
