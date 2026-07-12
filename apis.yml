@@ -55,6 +55,12 @@ apis:
       - type: Documentation
         url: https://docs.lovable.dev/integrations/lovable-api
 common:
+  - type: TrustCenter
+    url: security/lovable-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/lovable-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/lovable-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/lovablelabs
   - type: LinkedIn

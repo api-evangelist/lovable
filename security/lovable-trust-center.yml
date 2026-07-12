@@ -1,0 +1,14 @@
+generated: '2026-07-11'
+method: searched
+probe: true
+source: https://lovable.dev/security
+url: https://lovable.dev/security
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://lovable.dev/security
+  keywords:
+  - soc 2
+  - trust center
+  - gdpr
