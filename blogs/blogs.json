@@ -2,11 +2,11 @@
   "repo": "lovable",
   "feeds": [
     {
-      "source": "https://lovable.dev/blog",
+      "source": "https://lovable.dev/blog/rss.xml",
       "feed_url": "https://lovable.dev/blog/rss.xml",
       "title": "",
-      "saved": 2,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://docs.lovable.dev/integrations/lovable-api",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 2,
-  "fetched": "2026-08-01T15:49:00Z"
+  "post_count": 50,
+  "fetched": "2026-08-06T14:08:46Z"
 }
