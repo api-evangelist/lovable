@@ -22,6 +22,13 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lovable.png
 tags:
+  - Artificial Intelligence
+  - No-Code
+  - App Builder
+  - Web Development
+  - Generative
+  - MCP
+tags_raw:
   - AI
   - No-Code
   - App Builder
@@ -42,6 +49,10 @@ apis:
     humanURL: https://docs.lovable.dev/integrations/lovable-api
     baseURL: https://lovable.dev
     tags:
+      - Artificial Intelligence
+      - App Generation
+      - URL-Triggered
+    tags_raw:
       - AI
       - App Generation
       - URL-Triggered
