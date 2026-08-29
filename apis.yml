@@ -8,6 +8,17 @@ description: >-
   Lovable's developer-facing surface is in early release: the "Build with URL" API generates
   apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop,
   Cursor) manage Lovable projects via Model Context Protocol.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
