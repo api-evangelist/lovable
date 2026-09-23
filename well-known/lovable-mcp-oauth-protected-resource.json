@@ -1,0 +1,1 @@
+{"resource":"https://mcp.lovable.dev","authorization_servers":["https://lovable.dev/oauth"],"bearer_methods_supported":["header"],"scopes_supported":["offline","projects:read","projects:write","workspaces:read","workspaces:write"],"resource_name":"Lovable MCP Server","resource_documentation":"https://docs.lovable.dev/integrations/lovable-mcp-server"}
