@@ -51,7 +51,7 @@ tags_raw:
   - Generative
   - MCP
 created: '2026-05-08'
-modified: '2026-05-08'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: lovable:build-with-url
@@ -92,6 +92,8 @@ apis:
       - type: Documentation
         url: https://docs.lovable.dev/integrations/lovable-api
 common:
+  - url: https://lovable.dev/blog/rss.xml
+    type: BlogRSS
   - type: TrustCenter
     url: security/lovable-trust-center.yml
   - type: VulnerabilityDisclosure
