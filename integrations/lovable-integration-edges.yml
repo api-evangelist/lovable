@@ -3,6 +3,7 @@ method: searched
 checked:
 - https://azuremarketplace.microsoft.com/
 - https://github.com/marketplace?type=apps
+- https://registry.modelcontextprotocol.io/v0/servers
 - okta/integrations/okta-integration-edges.yml
 marketplace_apps: []
 edges:
@@ -36,6 +37,37 @@ edges:
   publisher_name: Lovable
   detected_by: sweep-devtools.py
   detected: '2026-10-14'
+- partner_name: MCP Registry
+  partner: mcp
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://registry.modelcontextprotocol.io/v0/servers?search=dev.lovable
+  contract_reference:
+    register: registry.modelcontextprotocol.io
+    spec_file: null
+    role: mcp-server-listing
+    registered_name: dev.lovable/mcp
+    register_id: dev.lovable/mcp
+    detected_by: sweep-agent-tools.py
+    detected: '2026-10-14'
+  mcp_registry:
+    servers:
+    - dev.lovable/mcp
+    hosted_remote: 1
+    local_package: 0
+    transports:
+      streamable-http: 1
+    auth_declared: 0
+    catalog_declared: true
+    namespace_domains:
+    - lovable.dev
+  matched_by:
+  - namespace-domain
+  detected_by: sweep-agent-tools.py
+  first_seen: '2026-10-14'
 - partner_name: Okta (own)
   partner: okta
   partner_match: mirror
