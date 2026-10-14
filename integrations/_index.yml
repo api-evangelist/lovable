@@ -27,3 +27,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: lovable-okta-own
+  label: Okta (own)
+  partner: okta
+  partner_name: Okta (own)
+  category: Automation
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.okta.com/integrations/integrator-9854309_lovable_1/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
