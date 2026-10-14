@@ -15,3 +15,15 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: lovable-github-marketplace-apps
+  label: GitHub Marketplace (apps)
+  partner: github
+  partner_name: GitHub Marketplace (apps)
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  evidence: https://github.com/marketplace/lovablebot
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
