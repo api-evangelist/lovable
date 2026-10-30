@@ -1,4 +1,4 @@
-# Lovable (lovable)
+# Lovable
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,41 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lovable is an AI app builder that generates full-stack web applications from natural-language prompts, with live preview, GitHub sync, and Supabase / Firebase integration. Lovable's developer-facing surface is in early release: the "Build with URL" API generates apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop, Cursor) manage Lovable projects via Model Context Protocol.
+Lovable is an AI app builder that generates full-stack web applications from natural- language prompts, with live preview, GitHub sync, and Supabase / Firebase integration. Lovable's developer-facing surface is in early release: the "Build with URL" API generates apps from a shareable URL, and the Lovable MCP Server lets AI clients (Claude Desktop, Cursor) manage Lovable projects via Model Context Protocol.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/lovable/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · No-Code · App Builder · Web Development · Generative · MCP
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=lovable-api-evangelist&utm_content=repo)
+## Lovable on APIs.io
 
-## Type
-- **x-type:** company
+Everything profiled for Lovable is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lovable/](https://apis.io/providers/lovable/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-- AI, No-Code, App Builder, Web Development, Generative, MCP
+### APIs (2)
 
-## APIs
-- **Build with URL API** — Generate a Lovable app from a shareable URL or prompt. [Docs](https://docs.lovable.dev/integrations/lovable-api) · [Blog](https://lovable.dev/blog/introducing-lovable-api-build-with-url)
-- **Lovable MCP Server** (Research Preview) — `https://mcp.lovable.dev`. AI-client-driven project management via Model Context Protocol.
+- [Lovable Build with URL API](https://apis.io/apis/lovable/build-with-url/) — Generates a Lovable application from a shareable URL or prompt. Programmatic entry point for creating apps and sharing links without revealing…
+- [Lovable MCP Server (Research Preview)](https://apis.io/apis/lovable/mcp/) — Model Context Protocol server at https://mcp.lovable.dev. Allows AI clients (Claude Desktop, Cursor, etc.) to create and manage Lovable projects through…
 
-## Plans, Rate Limits, FinOps
-- [Plans](plans/lovable-plans-pricing.yml) — Subscription tiers (Free / Pro / Teams / Enterprise) with monthly credit allowances.
-- [RateLimits](rate-limits/lovable-rate-limits.yml)
-- [FinOps](finops/lovable-finops.yml)
+### Published properties
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Common Properties
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [lovable](https://apis.io/servers/lovable/lovable/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lovable Domain Security](https://apis.io/security/lovable/lovable-domain-security/)
+- [Lovable Trust Center](https://apis.io/security/lovable/lovable-trust-center/)
+- [Lovable Vulnerability Disclosure](https://apis.io/security/lovable/lovable-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lovable Plans Pricing](https://apis.io/plans/lovable/lovable-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lovable Rate Limits](https://apis.io/rate-limits/lovable/lovable-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Lovable Finops](https://apis.io/finops/lovable/lovable-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://lovable.dev/)
 - [Documentation](https://docs.lovable.dev/)
 - [Pricing](https://lovable.dev/pricing)
+- [GitHub](https://github.com/lovablelabs)
 
-## Notes
-- Lovable is primarily an AI app-builder product (web UI + chat). Programmatic entry points are limited to "Build with URL" and the MCP Server in research preview. Public REST inference endpoints are not advertised.
-- No public OpenAPI spec discovered.
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 16.6** — emerging · rubric 0.25.0 · scored 2026-10-23
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 23.7 |
+
+**Agent readiness 28.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lovable/](https://apis.io/providers/lovable/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lovable: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lovable/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
